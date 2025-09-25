@@ -1,7 +1,8 @@
 clear;
 %clc;
 warning off;
-addpath(genpath('./'));
+addpath(genpath('./measure'));
+addpath(genpath('./Dataset'));
 
 DBDIR = './Dataset/';
 %DBDIR = 'D:/Data/';
